@@ -31,31 +31,31 @@
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cakesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toppingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.deliveryOptionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.standardCakesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cheeseCakesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vanillaCakeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.chocolateCakeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.blackForestCakeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.whiteForestCakeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cheeseCakesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.oreaCheeseCakeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.strawberryCheeseCakeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toppingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.macaroonsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fruitsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nutsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.chocolateFlakesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deliveryOptionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pickUpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deliveryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblDisplayOptions = new System.Windows.Forms.Label();
-            this.lblToppings = new System.Windows.Forms.Label();
-            this.lblDeliveryOption = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.fontToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colourToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.foreColourToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.backColourToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblToppings = new System.Windows.Forms.Label();
+            this.lblDeliveryOption = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -70,7 +70,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(856, 52);
+            this.menuStrip1.Size = new System.Drawing.Size(856, 49);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -83,33 +83,6 @@
             this.cakesToolStripMenuItem.Size = new System.Drawing.Size(108, 45);
             this.cakesToolStripMenuItem.Text = "Cakes";
             // 
-            // toppingsToolStripMenuItem
-            // 
-            this.toppingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.macaroonsToolStripMenuItem,
-            this.fruitsToolStripMenuItem,
-            this.nutsToolStripMenuItem,
-            this.chocolateFlakesToolStripMenuItem});
-            this.toppingsToolStripMenuItem.Name = "toppingsToolStripMenuItem";
-            this.toppingsToolStripMenuItem.Size = new System.Drawing.Size(152, 45);
-            this.toppingsToolStripMenuItem.Text = "Toppings";
-            // 
-            // deliveryOptionsToolStripMenuItem
-            // 
-            this.deliveryOptionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.pickUpToolStripMenuItem,
-            this.deliveryToolStripMenuItem});
-            this.deliveryOptionsToolStripMenuItem.Name = "deliveryOptionsToolStripMenuItem";
-            this.deliveryOptionsToolStripMenuItem.Size = new System.Drawing.Size(250, 45);
-            this.deliveryOptionsToolStripMenuItem.Text = "Delivery Options";
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(112, 48);
-            this.aboutToolStripMenuItem.Text = "About";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
             // standardCakesToolStripMenuItem
             // 
             this.standardCakesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -120,15 +93,6 @@
             this.standardCakesToolStripMenuItem.Name = "standardCakesToolStripMenuItem";
             this.standardCakesToolStripMenuItem.Size = new System.Drawing.Size(337, 46);
             this.standardCakesToolStripMenuItem.Text = "Standard Cakes";
-            // 
-            // cheeseCakesToolStripMenuItem
-            // 
-            this.cheeseCakesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.oreaCheeseCakeToolStripMenuItem,
-            this.strawberryCheeseCakeToolStripMenuItem});
-            this.cheeseCakesToolStripMenuItem.Name = "cheeseCakesToolStripMenuItem";
-            this.cheeseCakesToolStripMenuItem.Size = new System.Drawing.Size(337, 46);
-            this.cheeseCakesToolStripMenuItem.Text = "Cheesecakes";
             // 
             // vanillaCakeToolStripMenuItem
             // 
@@ -155,6 +119,15 @@
             this.whiteForestCakeToolStripMenuItem.Size = new System.Drawing.Size(374, 46);
             this.whiteForestCakeToolStripMenuItem.Text = "White Forest Cake";
             // 
+            // cheeseCakesToolStripMenuItem
+            // 
+            this.cheeseCakesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.oreaCheeseCakeToolStripMenuItem,
+            this.strawberryCheeseCakeToolStripMenuItem});
+            this.cheeseCakesToolStripMenuItem.Name = "cheeseCakesToolStripMenuItem";
+            this.cheeseCakesToolStripMenuItem.Size = new System.Drawing.Size(337, 46);
+            this.cheeseCakesToolStripMenuItem.Text = "Cheesecakes";
+            // 
             // oreaCheeseCakeToolStripMenuItem
             // 
             this.oreaCheeseCakeToolStripMenuItem.Name = "oreaCheeseCakeToolStripMenuItem";
@@ -166,6 +139,17 @@
             this.strawberryCheeseCakeToolStripMenuItem.Name = "strawberryCheeseCakeToolStripMenuItem";
             this.strawberryCheeseCakeToolStripMenuItem.Size = new System.Drawing.Size(439, 46);
             this.strawberryCheeseCakeToolStripMenuItem.Text = "Strawberry Cheesecake";
+            // 
+            // toppingsToolStripMenuItem
+            // 
+            this.toppingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.macaroonsToolStripMenuItem,
+            this.fruitsToolStripMenuItem,
+            this.nutsToolStripMenuItem,
+            this.chocolateFlakesToolStripMenuItem});
+            this.toppingsToolStripMenuItem.Name = "toppingsToolStripMenuItem";
+            this.toppingsToolStripMenuItem.Size = new System.Drawing.Size(152, 45);
+            this.toppingsToolStripMenuItem.Text = "Toppings";
             // 
             // macaroonsToolStripMenuItem
             // 
@@ -192,18 +176,34 @@
             this.chocolateFlakesToolStripMenuItem.Size = new System.Drawing.Size(356, 46);
             this.chocolateFlakesToolStripMenuItem.Text = "Chocolate Flakes";
             // 
+            // deliveryOptionsToolStripMenuItem
+            // 
+            this.deliveryOptionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.pickUpToolStripMenuItem,
+            this.deliveryToolStripMenuItem});
+            this.deliveryOptionsToolStripMenuItem.Name = "deliveryOptionsToolStripMenuItem";
+            this.deliveryOptionsToolStripMenuItem.Size = new System.Drawing.Size(250, 45);
+            this.deliveryOptionsToolStripMenuItem.Text = "Delivery Options";
+            // 
             // pickUpToolStripMenuItem
             // 
             this.pickUpToolStripMenuItem.Name = "pickUpToolStripMenuItem";
-            this.pickUpToolStripMenuItem.Size = new System.Drawing.Size(327, 46);
+            this.pickUpToolStripMenuItem.Size = new System.Drawing.Size(239, 46);
             this.pickUpToolStripMenuItem.Text = "Pick-Up";
             this.pickUpToolStripMenuItem.Click += new System.EventHandler(this.pickUpToolStripMenuItem_Click);
             // 
             // deliveryToolStripMenuItem
             // 
             this.deliveryToolStripMenuItem.Name = "deliveryToolStripMenuItem";
-            this.deliveryToolStripMenuItem.Size = new System.Drawing.Size(327, 46);
+            this.deliveryToolStripMenuItem.Size = new System.Drawing.Size(239, 46);
             this.deliveryToolStripMenuItem.Text = "Delivery";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(112, 45);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // lblDisplayOptions
             // 
@@ -214,6 +214,45 @@
             this.lblDisplayOptions.Size = new System.Drawing.Size(241, 32);
             this.lblDisplayOptions.TabIndex = 1;
             this.lblDisplayOptions.Text = "Customer Choice:";
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(40, 40);
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fontToolStripMenuItem,
+            this.colourToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(328, 151);
+            // 
+            // fontToolStripMenuItem
+            // 
+            this.fontToolStripMenuItem.Name = "fontToolStripMenuItem";
+            this.fontToolStripMenuItem.Size = new System.Drawing.Size(327, 46);
+            this.fontToolStripMenuItem.Text = "Font";
+            this.fontToolStripMenuItem.Click += new System.EventHandler(this.fontToolStripMenuItem_Click);
+            // 
+            // colourToolStripMenuItem
+            // 
+            this.colourToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.foreColourToolStripMenuItem,
+            this.backColourToolStripMenuItem});
+            this.colourToolStripMenuItem.Name = "colourToolStripMenuItem";
+            this.colourToolStripMenuItem.Size = new System.Drawing.Size(327, 46);
+            this.colourToolStripMenuItem.Text = "Colour";
+            // 
+            // foreColourToolStripMenuItem
+            // 
+            this.foreColourToolStripMenuItem.Name = "foreColourToolStripMenuItem";
+            this.foreColourToolStripMenuItem.Size = new System.Drawing.Size(327, 46);
+            this.foreColourToolStripMenuItem.Text = "Fore Colour";
+            this.foreColourToolStripMenuItem.Click += new System.EventHandler(this.foreColourToolStripMenuItem_Click);
+            // 
+            // backColourToolStripMenuItem
+            // 
+            this.backColourToolStripMenuItem.Name = "backColourToolStripMenuItem";
+            this.backColourToolStripMenuItem.Size = new System.Drawing.Size(327, 46);
+            this.backColourToolStripMenuItem.Text = "Back Colour";
+            this.backColourToolStripMenuItem.Click += new System.EventHandler(this.backColourToolStripMenuItem_Click);
             // 
             // lblToppings
             // 
@@ -232,42 +271,6 @@
             this.lblDeliveryOption.Size = new System.Drawing.Size(218, 32);
             this.lblDeliveryOption.TabIndex = 3;
             this.lblDeliveryOption.Text = "Delivery Option:";
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(40, 40);
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fontToolStripMenuItem,
-            this.colourToolStripMenuItem});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(223, 96);
-            // 
-            // fontToolStripMenuItem
-            // 
-            this.fontToolStripMenuItem.Name = "fontToolStripMenuItem";
-            this.fontToolStripMenuItem.Size = new System.Drawing.Size(222, 46);
-            this.fontToolStripMenuItem.Text = "Font";
-            // 
-            // colourToolStripMenuItem
-            // 
-            this.colourToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.foreColourToolStripMenuItem,
-            this.backColourToolStripMenuItem});
-            this.colourToolStripMenuItem.Name = "colourToolStripMenuItem";
-            this.colourToolStripMenuItem.Size = new System.Drawing.Size(222, 46);
-            this.colourToolStripMenuItem.Text = "Colour";
-            // 
-            // foreColourToolStripMenuItem
-            // 
-            this.foreColourToolStripMenuItem.Name = "foreColourToolStripMenuItem";
-            this.foreColourToolStripMenuItem.Size = new System.Drawing.Size(327, 46);
-            this.foreColourToolStripMenuItem.Text = "Fore Colour";
-            // 
-            // backColourToolStripMenuItem
-            // 
-            this.backColourToolStripMenuItem.Name = "backColourToolStripMenuItem";
-            this.backColourToolStripMenuItem.Size = new System.Drawing.Size(327, 46);
-            this.backColourToolStripMenuItem.Text = "Back Colour";
             // 
             // frmMainMenu
             // 

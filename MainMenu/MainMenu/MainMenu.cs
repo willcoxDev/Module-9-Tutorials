@@ -37,5 +37,32 @@ namespace MainMenu
             Form frm1 = new frmAbout();
             frm1.ShowDialog(this);
         }
+
+        private void foreColourToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ColorDialog newForeColor = new ColorDialog();
+            if (newForeColor.ShowDialog() == DialogResult.OK)
+            {
+                lblDisplayOptions.ForeColor = newForeColor.Color;
+            }
+        }
+
+        private void fontToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FontDialog newFont = new FontDialog();
+            if (newFont.ShowDialog() == DialogResult.OK)
+            {
+                lblDisplayOptions.Font = newFont.Font;
+            }
+        }
+
+        private void backColourToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ColorDialog newBackColor = new ColorDialog();
+            if (newBackColor.ShowDialog() == DialogResult.OK)
+            {
+                lblDisplayOptions.BackColor = newBackColor.Color;
+            }
+        }
     }
 }
